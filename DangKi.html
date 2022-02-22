@@ -50,22 +50,62 @@
                             <h2>Đăng ký thành viên</h2>
                         </legend>
                         <form class="thong-tin">
-                            <label class="t1" for="user">Tên đăng nhập</label><br><br>
-                            <input type="text" id="user" name="user"><br><br>
-                            <label class="t1" for="password">Mật khẩu</label><br><br>
-                            <input type="password" id="password" name="password"><br>
-                            <br>
-                            <label class="t1" for="email">Email</label><br><br>
-                            <input type="email" id="email" name="email"><br>
-                            <br><br>
-                            <fieldset class="gioi-tinh">
-                                <legend class="t2">Giới tính</legend>
-                                <label for=""><input type="radio" name="gt">Nam</label>
-                                <label for=""><input type="radio" name="gt">Nữ</label>
-                                <label for=""><input type="radio" name="gt">Khác</label>
-                            </fieldset><br>
-                            <input class="btm" type="submit" value="Đăng ký">
-
+                            <div class="form-group">
+                                <label>Username: <br></label>
+                                <input type="text" class="form-control" placeholder="Enter Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Password: <br></label>
+                                <input type="password" class="form-control" placeholder="Enter Passwork">
+                            </div>
+                            <div class="form-group">
+                                <label>Age: <br></label>
+                                <input type="number" class="form-control" placeholder="Enter Age">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone Number: <br></label>
+                                <input type="tel" class="form-control" placeholder="Enter Your Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <label>Email: <br></label>
+                                <input type="text" class="form-control" placeholder="Enter Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label>Brithday: <br></label>
+                                <input type="date" class="form-control"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Images <br></label>
+                                <input type="file" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Nationality <br></label>
+                                <select class="form-control">
+                                    <option value="">Viet Nam</option>
+                                    <option value="">Lao</option>
+                                    <option value="">My</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Gerder</label> <br>
+                                <label><input type="radio" name="gerder" checked=""/>Male</label>
+                                <label><input type="radio" name="gerder"/>Female</label>
+                            </div>
+                            <div class="form-group">
+                                <label>Hobby</label> <br>
+                                <label><input type="checkbox" name="Hobby"/>Chơi game</label>
+                                <label><input type="checkbox" name="Hobby"/>Thể thao</label>
+                                <label><input type="checkbox" name="Hobby"/>Ca hát</label>
+                                <label><input type="checkbox" name="Hobby"/>Đọc sách</label>
+                            </div>
+                            <div class="form-group">
+                                <label>Note <br></label>
+                                <input type="text" class="form-control" placeholder="Note here">
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <input type="submit" class="btn" value="Register now">
+                            </div>
                         </form>
                     </fieldset>
 
